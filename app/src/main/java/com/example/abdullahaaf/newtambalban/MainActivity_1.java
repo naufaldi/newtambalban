@@ -14,14 +14,16 @@ import android.widget.ListView;
  * Created by abdullahaaf on 11/28/16.
  */
 
-public class MainActivity_1 extends AppCompatActivity {
+public class MainActivity_1 extends AppCompatActivity
+{
 
     private ListView lvItemA;
     private String[] kelurahan = new String[]{
             "Kelurahan Sumbersari","Kelurahan Mojolangu"};
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity2_main);
 
@@ -34,17 +36,22 @@ public class MainActivity_1 extends AppCompatActivity {
 
         lvItemA.setAdapter(adapter);
         lvItemA.setSelected(true);
-        lvItemA.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        lvItemA.setOnItemClickListener(new AdapterView.OnItemClickListener()
+        {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l)
+            {
                 final String selection = kelurahan[i];
                 final CharSequence[] dialogitem = {"Lihat Jalan"};
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity_1.this);
                 builder.setTitle("Pilihan");
-                builder.setItems(dialogitem, new DialogInterface.OnClickListener() {
+                builder.setItems(dialogitem, new DialogInterface.OnClickListener()
+                {
                     @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-                        switch (i){
+                    public void onClick(DialogInterface dialogInterface, int i)
+                    {
+                        switch (i)
+                        {
                             case 0 :
 
                                 if (selection == kelurahan[0])
@@ -54,14 +61,6 @@ public class MainActivity_1 extends AppCompatActivity {
                                     startActivity(a);
                                     break;
                                 }
-//                                if (selection == kelurahan[1])
-//                                {
-//                                    Intent b = new Intent(getApplicationContext(), BlimbingKecActivity.class);
-//                                    b.putExtra("Blimbing", selection);
-//                                    startActivity(b);
-//                                    break;
-//                                }
-
                         }
                     }
                 });
@@ -72,13 +71,6 @@ public class MainActivity_1 extends AppCompatActivity {
 
 
         ((ArrayAdapter)lvItemA.getAdapter()).notifyDataSetInvalidated();
-
-//        lvItem.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-//            @Override
-//            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//                Toast.makeText(MainActivity1.this, "Memilih : "+kelurahan1[position], Toast.LENGTH_LONG).show();
-//            }
-//        });
     }
 
 }

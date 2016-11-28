@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">newtambalban</string>
+    <string name="title_text">Dalam PGT</string>
+    <string name="detail_text"> Berada di seberang jalan, sebelah kanan Toko </string>
+    <string name="detail_latitude">-7.9573868</string>
+    <string name="detail_longitude">112.6089187</string>
+    <string name="title_text_2">Mbah Azzik</string>
+    <string name="detail_text_2"> Berada sebelum sardo </string>
+    <string name="detail_latitude_2">-7.9456216</string>
+    <string name="detail_longitude_2">112.6074063</string>
+    <string name="title_activity_image">Stonehenge</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
