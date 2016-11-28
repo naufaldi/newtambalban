@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 final String selection = kelurahan[i];
-                final CharSequence[] dialogitem = {"Lihat Jalan"};
+                final CharSequence[] dialogitem = {"lihat list kelurahan"};
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                 builder.setTitle("Pilihan");
                 builder.setItems(dialogitem, new DialogInterface.OnClickListener() {
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
                                 if (selection == kelurahan[0])
                                 {
-                                    Intent a = new Intent(getApplicationContext(), MainActivity_1.class);
+                                    Intent a = new Intent(getApplicationContext(), LowokwaruActivity.class);
                                     a.putExtra("Lowokwaru", selection);
                                     startActivity(a);
                                     break;

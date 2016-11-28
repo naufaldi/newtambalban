@@ -36,22 +36,27 @@ public class BlimbingKecActivity extends AppCompatActivity {
         lvItemA.setAdapter(adapter);
         lvItemA.setSelected(true);
 
-        lvItemA.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        lvItemA.setOnItemClickListener(new AdapterView.OnItemClickListener()
+        {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l)
+            {
                 final String selection = kelurahan[i];
-                final CharSequence[] dialogitem = {"Lihat Jalan"};
+                final CharSequence[] dialogitem = {"lihat daftar jalan"};
                 AlertDialog.Builder builder = new AlertDialog.Builder(BlimbingKecActivity.this);
                 builder.setTitle("Pilihan");
-                builder.setItems(dialogitem, new DialogInterface.OnClickListener() {
+                builder.setItems(dialogitem, new DialogInterface.OnClickListener()
+                {
                     @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-                        switch (i){
+                    public void onClick(DialogInterface dialogInterface, int i)
+                    {
+                        switch (i)
+                        {
                             case 0 :
 
                                 if (selection == kelurahan[0])
                                 {
-                                    Intent a = new Intent(getApplicationContext(), MainActivity_1.class);
+                                    Intent a = new Intent(getApplicationContext(), LowokwaruActivity.class);
                                     a.putExtra("Lowokwaru", selection);
                                     startActivity(a);
                                     break;
