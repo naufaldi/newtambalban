@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_cf8dd33c5bed86a90dc995009562951bfea86ee6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_ca9d4e8bc6fee2d8cab10164a6d8d9048e666b5a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_e3a1a49111054330c2a4c5b40d1c57088d4f46f3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_8b656e4a3da01735fdc2cf02f252478f4cd82a7d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="55d8c1d2f53970da1632ac0b406081c41dedfd36">
+        <dex dex="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_aef976a3102d5595d3e8243ae381c8133a0a929f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abdullahaaf/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_39bae9deadf7929b8683ea712daa1b1ddfd240be/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_1ddb0fefd977d258c831c34993acc2c3aae95622/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_b91bdf648db7226e9f1bcc78bfeb6ab587a1c3aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_5e68d43bc5577d33dc5c1716d912c36124426995/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2fadd7a2dcfb1de81767f79c539d452c9067f4fd">
+        <dex dex="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_34b56be09d05f9e8135b37e0d2a98a39f4538ebf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_39eb43e7d023f8065eec0df13db436650c0923aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_1ccc89eb3bebb4265ea2687ef23af0c697fa6ea6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_e40a8cb375c5cd18286dcfd2e46a50a014ddf2b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_caea1293b8d74708189f47d85c189e036bec485b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_a95d85e55c9a8534ab5339771dd3d24136ea7d59/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_b4063a43eade8b535c5d15d8fb42dc25e27fe8ff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/abdullahaaf/Desktop/newtambalban/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_a4a04024f862a8d0f98b135ea98c7d45f44a6ef5/classes.dex" />
+    </item>
+
+</items>
