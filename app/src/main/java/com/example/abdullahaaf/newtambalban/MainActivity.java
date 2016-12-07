@@ -1,16 +1,17 @@
 package com.example.abdullahaaf.newtambalban;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     private ListView lvItemA;
     private String[] kelurahan = new String[]{
@@ -21,9 +22,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        getSupportActionBar().setTitle("TaTaBanKu"); //tampil title
 
-
+        //button ke mylocation
+        Button get_location = (Button) findViewById(R.id.btn_get_mylocation);
+        get_location.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),
+                        MyLocationMaps.class));
+            }
+        });
 
         lvItemA = (ListView) findViewById(R.id.list_kecamatan);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_1, android.R.id.text1,kelurahan);
@@ -35,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 final String selection = kelurahan[i];
-                final CharSequence[] dialogitem = {"Lihat Jalan"};
+                final CharSequence[] dialogitem = {"lihat list kelurahan"};
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                 builder.setTitle("Pilihan");
                 builder.setItems(dialogitem, new DialogInterface.OnClickListener() {
@@ -46,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
                                 if (selection == kelurahan[0])
                                 {
-                                    Intent a = new Intent(getApplicationContext(), MainActivity_1.class);
+                                    Intent a = new Intent(getApplicationContext(), LowokwaruActivity.class);
                                     a.putExtra("Lowokwaru", selection);
                                     startActivity(a);
                                     break;

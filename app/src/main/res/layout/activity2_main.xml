@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@android:color/holo_blue_dark"
-    tools:context="com.example.abdullahaaf.newtambalban.MainActivity_1">
+    tools:context="com.example.abdullahaaf.newtambalban.LowokwaruActivity">
 
     <EditText
         android:layout_width="match_parent"
