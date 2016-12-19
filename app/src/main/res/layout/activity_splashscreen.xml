@@ -10,7 +10,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="58dp"/>
     <ImageView
-        android:src="@drawable/tambalban-screen"
+        android:src="@drawable/tambalbanscreen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleType="fitXY"
